@@ -1,0 +1,22 @@
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+
+  background-color: rgb(94, 149, 197);
+
+  height: 60px;
+}
+
+.nav li, a {
+  list-style: none;
+  text-decoration: none;
+  font-size: 30px;
+  color: white;
+}
+
+.active {
+  font-weight: bold;
+  color: rgb(78, 195, 49);
+}
