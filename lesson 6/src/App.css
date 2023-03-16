@@ -9,7 +9,7 @@
   height: 60px;
 }
 
-.nav li, a {
+.nav li, .nav a {
   list-style: none;
   text-decoration: none;
   font-size: 30px;
