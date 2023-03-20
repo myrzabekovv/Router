@@ -1,0 +1,14 @@
+.me {
+  background-image: url('./me.jpg');
+  width: 650px;
+  height: 60vh;
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+}
+
+.about-me {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  font-size: 20px;
+}

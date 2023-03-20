@@ -1,0 +1,44 @@
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+
+  background-color: rgb(31, 44, 55);
+  box-shadow: 0px 5px 20px rgb(42, 79, 111);
+
+  height: 60px;
+}
+
+.nav li, .nav a {
+  list-style: none;
+  text-decoration: none;
+  font-size: 30px;
+  color: white;
+  position: relative;
+}
+
+.nav a::after{
+  position: absolute;
+  content: "";
+  height: 3px;
+  background-color: rgb(31, 44, 55);
+  width: 0;
+  left: 0;
+  bottom: -5px;
+  transition: 0.3s;
+}
+
+.nav a:hover {
+  color: rgb(51, 130, 102);
+  transition: 0.3s;
+}
+
+.nav a:hover::after {
+  width: 100%;
+  background-color: aqua  ;
+}
+
+.active {
+  font-weight: bold;
+}

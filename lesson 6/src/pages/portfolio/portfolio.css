@@ -1,0 +1,18 @@
+.img {
+  width: 700px;
+  height: 200px;
+  background-color: black;
+}
+
+.portfolio {
+  width: 100%;
+  display: flex;
+  gap: 50px;
+  margin-top: 30px;
+}
+
+.about-portfolio {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}

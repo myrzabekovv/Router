@@ -28,14 +28,14 @@ function App() {
           <Route
             path="/contacts"
             element={<ContactsPage />} />
-          <Route
+          {/* <Route
             path='/blog'
             element={<BlogPage />}
           />
           <Route
             path='/blog/:id'
             element={<BlogItemPage/>}
-          />
+          /> */}
         </Route>
       </Routes>
     </BrowserRouter>
