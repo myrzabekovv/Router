@@ -1,0 +1,16 @@
+.skills-container {
+  width: 30%;
+  background-color: #948b8b;
+  border-radius: 10px;
+}
+
+.skill {
+  text-align: right;
+  padding: 5px 10px;
+  /* padding-top: 10px; */
+  /* padding-bottom: 10px; */
+  color: white;
+  background-color: rgb(102, 102, 220);
+  border-radius: 10px;
+  width: 90%;
+}
